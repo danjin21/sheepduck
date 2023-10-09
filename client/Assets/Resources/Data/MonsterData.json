@@ -1,0 +1,117 @@
+﻿{
+
+
+  "monsters": [
+    {
+      "id": "1",
+      "name": "하얀양",
+      "stat": {
+        "level": "1",
+        "maxHp": "5",
+        "attack": "1",
+        "speed": "1.0", // 1.5
+        "atkSpeed": "1",
+        "range": "1",
+        "def": "0"
+      },
+      "rewards": [
+        {
+          "probability": "30",
+          "itemId": "99999",
+          "count": "30"
+        },
+        {
+          "probability": "50",
+          "itemId": "100001",
+          "count": "1"
+        }
+      ],
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#eeeee4"
+    },
+    {
+      "id": "2",
+      "name": "검은양",
+      "stat": {
+        "level": "2",
+        "maxHp": "10",
+        "attack": "2",
+        "speed": "2.5",
+        "atkSpeed": "2",
+        "range": "1",
+        "def": "0"
+      },
+      "rewards": [
+        {
+          "probability": "30",
+          "itemId": "99999",
+          "count": "30"
+        },
+        {
+          "probability": "50",
+          "itemId": "100001",
+          "count": "1"
+        }
+      ],
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#21130d"
+    },
+    {
+      "id": "3",
+      "name": "레드양",
+      "stat": {
+        "level": "3",
+        "maxHp": "50",
+        "attack": "5",
+        "speed": "5.0",
+        "atkSpeed": "2",
+        "range": "1",
+        "def": "0"
+      },
+      "rewards": [
+        {
+          "probability": "30",
+          "itemId": "99999",
+          "count": "30"
+        },
+        {
+          "probability": "50",
+          "itemId": "100001",
+          "count": "1"
+        }
+      ],
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#E85a19"
+    },
+
+    {
+      "id": "4",
+      "name": "주홍양",
+      "stat": {
+        "level": "4",
+        "maxHp": "100",
+        "attack": "15",
+        "speed": "3.0",
+        "atkSpeed": "5",
+        "range": "1",
+        "def": "0"
+      },
+      "rewards": [
+        {
+          "probability": "30",
+          "itemId": "99999",
+          "count": "30"
+        },
+        {
+          "probability": "50",
+          "itemId": "100001",
+          "count": "1"
+        }
+      ],
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#FF6600"
+    }
+
+
+  ]
+}

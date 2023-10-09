@@ -1,0 +1,119 @@
+﻿{
+
+
+  "players": [
+    {
+      "id": "1",
+      "name": "기본오리",
+      "stat": {
+        "level": "1", // 레벨
+        "maxHp": "10", // 최대 체력
+        "attack": "1", // 공격력
+        "speed": "0.0", // 이동속도
+        "atkSpeed": "2.0", // 공격속도
+        "range": "0", // 공격범위
+        "def": "0", // 방어력
+        "cost": "100", // 비용(마나)
+        "cooltime": "10", // 소환쿨타임
+        "skill": "1", // 스킬종류
+        "type": "0", //  0:fixed, 1:rush
+        "elemental": "0" // 0:noraml, 1:fire, 2:nature, 3:ice
+
+      },
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#154c79",  // 색깔
+      "engName": "DUCK",
+      "desc": "없음"
+
+
+    },
+    {
+      "id": "2",
+      "name": "오차르트",
+      "stat": {
+        "level": "1",
+        "maxHp": "20",
+        "attack": "2",
+        "speed": "0.0",
+        "atkSpeed": "5.0",
+        "range": "0",
+        "def": "1",
+        "cost": "100",
+        "cooltime": "10",
+        "skill": "1",
+        "type": "0", //  0:fixed, 1:rush
+        "elemental": "0" // 0:noraml, 1:fire, 2:nature, 3:ice
+      },
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#CBCBC3",
+      "engName": "Duczart",
+      "desc": "음악을 배우랬더니 머리 마는 기술만 배워왔습니다."
+    },
+    {
+      "id": "3",
+      "name": "천둥오리",
+      "stat": {
+        "level": "1",
+        "maxHp": "50",
+        "attack": "5",
+        "speed": "0.0",
+        "atkSpeed": "10",
+        "range": "0",
+        "def": "1",
+        "cost": "125",
+        "cooltime": "30",
+        "skill": "1",
+        "type": "0", //  0:fixed, 1:rush
+        "elemental": "0" // 0:noraml, 1:fire, 2:nature, 3:ice
+      },
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#F9DD89",
+      "engName": "Thunduck",
+      "desc": "머리에 멋진 깃털은 피뢰침이 아닙니다."
+    },
+    {
+      "id": "4",
+      "name": "언덕",
+      "stat": {
+        "level": "1",
+        "maxHp": "2000",
+        "attack": "1",
+        "speed": "0.0",
+        "atkSpeed": "0.5",
+        "range": "0",
+        "def": "1",
+        "cost": "150",
+        "cooltime": "10",
+        "skill": "1"
+      },
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#FFFFFF",
+      "engName": "Frozenbeak",
+      "desc": "물 먹다 잠들었다고 하면 아무도 안 믿는다고 합니다."
+    },
+    {
+      "id": "5",
+      "name": "콩알탄둥지",
+      "stat": {
+        "level": "1",
+        "maxHp": "10",
+        "attack": "7",
+        "speed": "0.0",
+        "atkSpeed": "2.5",
+        "range": "5",
+        "def": "1",
+        "cost": "150",
+        "cooltime": "10",
+        "skill": "2"
+      },
+      "HitSoundPath": "Sounds/Hit/2",
+      "color": "#Ff1212",
+      "engName": "Duckling Nest",
+      "desc": "확실한건 첫째가 레드 라고 불리고 싶어한다는 겁니다."
+    }
+
+
+
+
+  ]
+}

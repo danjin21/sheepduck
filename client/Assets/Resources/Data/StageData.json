@@ -1,0 +1,30 @@
+﻿{
+
+
+  "stages": [
+    {
+      // 1-1
+      "id": "1",
+      "rewards": [
+        {
+          "probability": "30",
+          "itemId": "99999",
+          "count": "30"
+        },
+      ],
+    },
+    {
+      // 1-2
+      "id": "2",
+      "rewards": [
+        {
+          "probability": "30",
+          "itemId": "99999",
+          "count": "30"
+        },
+      ]
+    }
+
+
+  ]
+}
